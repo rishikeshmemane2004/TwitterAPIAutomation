@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TwitterAPI UserTimeLine Suite">
+  <test thread-count="5" name="Twitter API Statuses - UserTimeLine Test">
+    <classes>
+      <class name="com.onlyautomationtesting.statuses.UserTimelineTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
